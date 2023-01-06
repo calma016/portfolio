@@ -1,0 +1,16 @@
+.chessboard
+{
+    
+    background: "white";
+    display: grid;
+    grid-template-columns: repeat(8, 100px);
+
+}
+.mainPage 
+{
+    display: grid;
+    place-content: center;
+    background: #34495e;
+    height: 1000px;
+    
+}

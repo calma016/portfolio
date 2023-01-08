@@ -1,0 +1,36 @@
+.tiles
+{
+    width: 100px;
+    height: 100px;
+}
+.tile-light
+{
+    display: grid;
+    place-content: center;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    color:white;
+    
+}
+.tile-dark
+{
+    display: grid;
+    place-content: center;
+    background-color: #3498db;
+    height: 100px;
+    width: 100px;
+    color:white;
+   
+}
+.piece
+{
+    width: 100px;
+    height: 100px;
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.piece:hover{
+    cursor: grab;
+}
